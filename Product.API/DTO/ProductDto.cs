@@ -1,8 +1,9 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using Product.API.Entities;
+using System.ComponentModel.DataAnnotations;
 
-namespace Product.API.Entities
+namespace Product.API.DTO
 {
-    public class Product
+    public class ProductDto
     {
         [Key]
         public int Id { get; set; }
@@ -10,11 +11,11 @@ namespace Product.API.Entities
         public string Name { get; set; }
         [Required]
         public string Description { get; set; }
-        public decimal Price { get; set; }  
+        public decimal Price { get; set; }
         [Required]
         public string ImageUrl { get; set; }
-        [Required]  
+        [Required]
         public string CategoryId { get; set; }
-        public Category Category { get; set; }
     }
+    
 }
