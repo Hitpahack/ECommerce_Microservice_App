@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UIProject", "UIProject", "{0FA8E9CB-BB7C-40DA-A190-CB87EEC09791}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShoppingCart.UI", "ShoppingCart.UI\ShoppingCart.UI.csproj", "{6E4A5B92-1B8D-41B4-A453-347648413EA4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Microservices", "Microservices", "{468F31AE-8863-4727-BC51-0534A56AD442}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Product.API", "Product.API\Product.API.csproj", "{90706784-B7CF-4E0D-BFAF-846E63CE2F59}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6E4A5B92-1B8D-41B4-A453-347648413EA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E4A5B92-1B8D-41B4-A453-347648413EA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E4A5B92-1B8D-41B4-A453-347648413EA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E4A5B92-1B8D-41B4-A453-347648413EA4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90706784-B7CF-4E0D-BFAF-846E63CE2F59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90706784-B7CF-4E0D-BFAF-846E63CE2F59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90706784-B7CF-4E0D-BFAF-846E63CE2F59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90706784-B7CF-4E0D-BFAF-846E63CE2F59}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6E4A5B92-1B8D-41B4-A453-347648413EA4} = {0FA8E9CB-BB7C-40DA-A190-CB87EEC09791}
+		{90706784-B7CF-4E0D-BFAF-846E63CE2F59} = {468F31AE-8863-4727-BC51-0534A56AD442}
+	EndGlobalSection
+EndGlobal
