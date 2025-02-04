@@ -10,4 +10,4 @@ namespace Product.API.Services
         Task<ProductDto> CreateUpdateProductAsync(ProductDto product);
         Task<bool> DeleteProductAsync(int id);
     }
-}
+}   

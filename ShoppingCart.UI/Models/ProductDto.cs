@@ -1,7 +1,7 @@
-﻿using Product.API.Entities;
+﻿
 using System.ComponentModel.DataAnnotations;
 
-namespace Product.API.DTO
+namespace ShoppingCart.UI.Models
 {
     public class ProductDto
     {
